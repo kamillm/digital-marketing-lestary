@@ -1,0 +1,241 @@
+$info: #6dd1ff;
+$light: #fcfcfc;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #212529;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(91, 94, 97);
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $info;
+}
+
+::-moz-selection {
+  color: #000;
+  background: $info;
+}
+
+::selection {
+  color: #000;
+  background: $info;
+}
+
+[id] {
+  scroll-margin-top: 100px;
+}
+
+#main {
+  min-height: 100vh;
+
+  // markdown
+  .markdown {
+     // Custom modal image size
+     .__react_modal_image__medium_img {
+      width: 80%;
+      height: auto;
+      object-fit: contain;
+    }
+
+    // Custom Link
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+    a:hover {
+      text-decoration: dashed;
+      color: $info;
+    }
+  }
+
+  // Link
+  .link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .link:hover {
+    text-decoration: dashed;
+    color: $info;
+  }
+
+  .section-title {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .text {
+    color: lightgrey;
+  }
+
+  .code {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+  }
+
+  .blink {
+    animation: blink 1s step-start infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  // Experiences Tab
+  #experience-tab-dark {
+    .nav-link.active {
+      color: $info;
+      background-color: #343a41;
+      border-left: 2px solid $info;
+    }
+
+    .nav-link {
+      border-radius: 0;
+      color: #ddd;
+      border-left: 2px transparent;
+    }
+
+    .nav-link:hover {
+      background-color: #343a41;
+      border-left: 2px solid #07839b;
+    }
+
+    @media screen and (max-width: 1024px) {
+
+      .nav-link.active,
+      .nav-link,
+      .nav-link:hover {
+        border-left: none;
+      }
+    }
+  }
+
+  #experience-tab-light {
+    .nav-link.active {
+      color: #343a41;
+      background-color: #e9e9e9;
+      border-left: 2px solid #26282b;
+    }
+
+    .nav-link {
+      border-radius: 0;
+      color: #343a41;
+      border-left: 2px transparent;
+    }
+
+    .nav-link:hover {
+      background-color: #e9e9e9;
+      border-left: 2px solid #343a41;
+    }
+
+    @media screen and (max-width: 1024px) {
+
+      .nav-link.active,
+      .nav-link,
+      .nav-link:hover {
+        border-left: none;
+      }
+    }
+  }
+
+  #swiper {
+    .swiper-pagination-bullet {
+      opacity: 0.5;
+      background: gray;
+    }
+
+    .swiper-pagination-bullet-active {
+      opacity: 1;
+      background: $info;
+    }
+  }
+
+  // Timeline
+  ul.timeline-light, ul.timeline-dark {
+    list-style-type: none;
+    position: relative;
+  }
+
+  ul.timeline-light:before {
+    content: " ";
+    background: #e9e9e9;
+    display: inline-block;
+    position: absolute;
+    border-radius: 15px;
+    left: 15px;
+    width: 3px;
+    height: 100%;
+    z-index: 400;
+  }
+
+  ul.timeline-dark:before {
+    content: " ";
+    background: #343a41;
+    display: inline-block;
+    position: absolute;
+    border-radius: 15px;
+    left: 15px;
+    width: 3px;
+    height: 100%;
+    z-index: 400;
+  }
+
+  ul.timeline-light>li,
+  ul.timeline-dark>li {
+    margin: 20px 10px;
+    padding-left: 5px;
+  }
+
+  ul.timeline-light>li:before {
+    content: " ";
+    background: #e9e9e9;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #343a41;
+    left: 7px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+  }
+
+  ul.timeline-dark>li:before {
+    content: " ";
+    background: #343a41;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid $info;
+    left: 7px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+  }
+}
+
+@import '~bootstrap/scss/bootstrap.scss';

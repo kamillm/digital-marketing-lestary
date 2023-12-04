@@ -1,0 +1,16 @@
+.card_blog {
+    background: #f8f7f4;
+    color: #343a41;
+    transition: 0.3s;
+}
+
+.card_blog_dark {
+    background: #343a41;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.card_blog:hover, .card_blog_dark:hover {
+    transition: 0.3s;
+    transform: translate(0, -10px);
+}

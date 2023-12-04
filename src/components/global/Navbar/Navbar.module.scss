@@ -1,0 +1,47 @@
+.bg_glass_dark {
+    background: rgba(43, 48, 54, 0.8);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    animation: fadein_dark 0.3s linear;
+}
+
+.bg_glass_light {
+    background: rgba( 255, 255, 255, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    animation: fadein_light 0.3s linear;
+}
+
+.bg_transparent {
+    background: transparent;
+    animation: fadeout 0.3s linear;
+}
+
+@keyframes fadein_light{
+    from{
+      background: transparent;
+    }
+    to{
+        background: rgba( 255, 255, 255, 0.4 );
+    }
+  }
+
+@keyframes fadein_dark{
+    from{
+      background: transparent;
+    }
+    to{
+        background: rgba(43, 48, 54, 0.8);
+    }
+  }
+
+  @keyframes fadeout{
+    from{
+        background: unset;
+    }
+    to{
+        background: transparent;
+    }
+  }
