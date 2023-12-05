@@ -1,5 +1,7 @@
 import Image from 'next/image';
-import { FaEnvelope, FaMapMarkerAlt, FaMarker, FaWhatsapp } from 'react-icons/fa';
+import {
+  FaEnvelope, FaMapMarkerAlt, FaWhatsapp,
+} from 'react-icons/fa';
 import SocialMedia from '../../home/SocialMedia/SocialMedia';
 
 const Footer = () => {

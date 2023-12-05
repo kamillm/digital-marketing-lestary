@@ -5,7 +5,6 @@ import { useRouter } from 'next/router';
 import Hamburger from 'hamburger-react';
 import { useTheme } from 'next-themes';
 import styles from './Navbar.module.scss';
-import ThemeSwitch from './ThemeSwitch';
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -40,7 +39,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto my-2 gap-3 my-lg-0 text-center text-lg-start">
             <li className="nav-item">
-              <Link className={router.asPath === '/#services' ? `nav-link fw-bolder` : 'nav-link'} href="/#services">
+              <Link className={router.asPath === '/#services' ? 'nav-link fw-bolder' : 'nav-link'} href="/#services">
                 Layanan
               </Link>
             </li>
@@ -50,17 +49,17 @@ const Navbar = () => {
               </Link>
             </li> */}
             <li className="nav-item">
-              <Link className={router.pathname.includes('/blogs') ? `nav-link fw-bolder` : 'nav-link'} href="/blogs">
+              <Link className={router.pathname.includes('/blogs') ? 'nav-link fw-bolder' : 'nav-link'} href="/blogs">
                 Blog
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={router.asPath === '/about' ? `nav-link fw-bolder` : 'nav-link'} href="/about">
+              <Link className={router.asPath === '/about' ? 'nav-link fw-bolder' : 'nav-link'} href="/about">
                 Tentang Kami
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={router.asPath === '/#contact' ? `nav-link fw-bolder` : 'nav-link'} href="/#contact">
+              <Link className={router.asPath === '/#contact' ? 'nav-link fw-bolder' : 'nav-link'} href="/#contact">
                 Kontak
               </Link>
             </li>

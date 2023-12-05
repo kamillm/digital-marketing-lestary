@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { useTheme } from 'next-themes';
-import SocialMedia from '../SocialMedia/SocialMedia';
 
 const SectionContact = () => {
   const { resolvedTheme } = useTheme();
