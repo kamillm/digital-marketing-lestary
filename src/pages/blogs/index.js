@@ -7,7 +7,6 @@ import Link from 'next/link';
 import { FaSearch } from 'react-icons/fa';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
-import { useTheme } from 'next-themes';
 import Layout from '../../components/global/Layout/Layout';
 import { readingTime, sortByDate } from '../../utils';
 
@@ -46,8 +45,6 @@ export const getStaticProps = async () => {
 const Blogs = ({ posts }) => {
   const [limit, setLimit] = useState(12);
   const [query, setQuery] = useState('');
-
-  const { resolvedTheme } = useTheme();
 
   const search = (data) => data.filter((post) => post.frontmatter.title
     .toLowerCase().includes(query.toLowerCase()) || post.frontmatter.excerpt
@@ -95,15 +92,15 @@ const Blogs = ({ posts }) => {
           <div className="container p-4 p-lg-5">
             <div className="row mb-5" data-aos="fade-up">
               <div className="col">
-                <h1 className={`section-title text-${resolvedTheme === 'dark' ? 'light' : 'dark'}`}>Blogs</h1>
-                <p className={`lead text-${resolvedTheme === 'dark' ? 'info' : 'dark'}`}>
+                <h1 className="section-title text-dark">Blogs</h1>
+                <p className="lead text-dark">
                   Just my random posts about anything
                 </p>
               </div>
               <div className="col-lg-3 my-auto">
                 <div className="input-group">
                   <span className="input-group-text bg-transparent text-muted border-0 border-bottom border-secondary rounded-0" id="basic-addon1"><FaSearch /></span>
-                  <input onChange={(e) => setQuery(e.target.value)} value={query} type="text" className={`form-control bg-transparent text-${resolvedTheme === 'dark' ? 'info' : 'dark'} border-secondary border-0 border-bottom shadow-none rounded-0`} placeholder="Search post..." aria-label="Username" aria-describedby="basic-addon1" />
+                  <input onChange={(e) => setQuery(e.target.value)} value={query} type="text" className="form-control bg-transparent text-dark border-secondary border-0 border-bottom shadow-none rounded-0" placeholder="Search post..." aria-label="Username" aria-describedby="basic-addon1" />
                 </div>
               </div>
             </div>
@@ -112,12 +109,12 @@ const Blogs = ({ posts }) => {
                 <div className="col-12 text-center">
                   <Image
                     className="img-fluid"
-                    src={resolvedTheme === 'dark' ? '/assets/img/not-found-dark.png' : '/assets/img/not-found-light.png'}
+                    src="/assets/img/not-found-light.png"
                     width={350}
                     height={250}
                     alt="Not Found"
                   />
-                  <p className={`code text-${resolvedTheme === 'dark' ? 'info' : 'dark'} text-center mb-3`}>
+                  <p className="code text-dark text-center mb-3">
                     No post found. Try to use another keywords
                     <span className="blink">_</span>
                   </p>
@@ -141,7 +138,7 @@ const Blogs = ({ posts }) => {
                   <button
                     type="button"
                     onClick={() => setLimit(limit + 6)}
-                    className={`btn btn-outline-${resolvedTheme === 'dark' ? 'info' : 'dark'} rounded-pill py-2 px-4`}
+                    className="btn btn-outline-dark rounded-pill py-2 px-4"
                   >
                     Load more
                   </button>

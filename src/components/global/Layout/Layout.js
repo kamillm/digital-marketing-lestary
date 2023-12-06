@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { useTheme } from 'next-themes';
 import { Slide, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Navbar from '../Navbar/Navbar';
@@ -7,7 +6,6 @@ import Footer from '../Footer/Footer';
 
 const Layout = ({ children }) => {
   const [mounted, setMounted] = useState(false);
-  const { resolvedTheme } = useTheme();
 
   // useEffect only runs on the client, so now we can safely show the UI
   useEffect(() => {
@@ -16,8 +14,8 @@ const Layout = ({ children }) => {
 
   if (!mounted) {
     return (
-      <div className={`bg-${resolvedTheme} min-vh-100 d-flex justify-content-center align-items-center`}>
-        <div className={`spinner-border text-${resolvedTheme === 'dark' ? 'info' : 'dark'}`} role="status">
+      <div className="min-vh-100 d-flex justify-content-center align-items-center">
+        <div className="spinner-border text-dark" role="status">
           <span className="visually-hidden">Loading...</span>
         </div>
       </div>
@@ -27,7 +25,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <main className={resolvedTheme === 'dark' ? 'bg-dark' : 'bg-light'} id="main">
+      <main className="bg-light" id="main">
         {children}
       </main>
       <Footer />
@@ -42,7 +40,6 @@ const Layout = ({ children }) => {
         draggable={false}
         pauseOnHover={false}
         transition={Slide}
-        theme={resolvedTheme}
       />
     </>
   );

@@ -7,7 +7,6 @@ import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import { useTheme } from 'next-themes';
 import Layout from '../../../components/global/Layout/Layout';
 import { readingTime, sortByDate } from '../../../utils';
 
@@ -46,7 +45,6 @@ export const getStaticProps = async () => {
 const Tags = ({ posts }) => {
   const [limit, setLimit] = useState(12);
   const router = useRouter();
-  const { resolvedTheme } = useTheme();
 
   const filterPostsByTag = (posts) => posts?.filter(post => post.frontmatter.tags.includes(router.query.query));
 
@@ -91,8 +89,8 @@ const Tags = ({ posts }) => {
           <div className="container p-4 p-lg-5">
             <div className="row mb-5" data-aos="fade-up">
               <div className="col">
-                <h1 className={`section-title text-capitalize text-${resolvedTheme === 'dark' ? 'light' : 'dark'}`}>{router.query.query || 'Not Found'}</h1>
-                <p className={`lead text-${resolvedTheme === 'dark' ? 'info' : 'dark'}`}>
+                <h1 className="section-title text-capitalize text-dark">{router.query.query || 'Not Found'}</h1>
+                <p className="lead text-dark">
                   {router.query.query ? `Showing posts with tag ${router.query.query}` : null}
                 </p>
               </div>
@@ -102,7 +100,7 @@ const Tags = ({ posts }) => {
                 <div className="col-12 text-center">
                   <Image
                     className="img-fluid"
-                    src={resolvedTheme === 'dark' ? '/assets/img/not-found-dark.png' : '/assets/img/not-found-light.png'}
+                    src="/assets/img/not-found-light.png"
                     width={350}
                     height={250}
                     alt="Not Found"

@@ -8,7 +8,6 @@ import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import remarkGfm from 'remark-gfm';
 import { FaRegCalendar, FaRegClock } from 'react-icons/fa';
-import { useTheme } from 'next-themes';
 import Layout from '../../components/global/Layout/Layout';
 import DisqusComments from '../../components/blogs/DisqusComments/DisqusComments';
 import ButtonShareSocmed from '../../components/blogs/ButtonShareSocmed/ButtonShareSocmed';
@@ -48,7 +47,6 @@ export const getStaticProps = async ({ params: { slug } }) => {
 };
 
 const BlogDetail = ({ frontmatter, slug, content }) => {
-  const { resolvedTheme } = useTheme();
   const tags = frontmatter.tags.split(', ');
 
   return (
@@ -90,8 +88,8 @@ const BlogDetail = ({ frontmatter, slug, content }) => {
           <div className="container p-4 p-lg-5">
             <div className="row justify-content-center mt-5 pt-5">
               <div className="col-lg-8">
-                <h1 className={`section-title ${resolvedTheme === 'dark' ? 'text-light' : 'text-dark'}`}>{frontmatter.title}</h1>
-                <div className={`text-${resolvedTheme === 'dark' ? 'info' : 'secondary'} mt-3 mb-4`}>
+                <h1 className="section-title text-dark">{frontmatter.title}</h1>
+                <div className="text-secondary mt-3 mb-4">
                   <div className="row justify-content-between">
                     <div className="col-auto">
                       <p>
@@ -122,7 +120,7 @@ const BlogDetail = ({ frontmatter, slug, content }) => {
                   src={frontmatter.cover_image}
                   alt={frontmatter.title}
                 />
-                <div className={`text-${resolvedTheme === 'dark' ? 'light' : 'dark'} my-5`}>
+                <div className="text-dark my-5">
                   <ReactMarkdown
                     className="markdown"
                     remarkPlugins={[remarkGfm]}
@@ -133,7 +131,7 @@ const BlogDetail = ({ frontmatter, slug, content }) => {
                   </ReactMarkdown>
                 </div>
                 <div className="my-5">
-                  <span className={`text-${resolvedTheme === 'dark' ? 'light' : 'dark'} me-3`}>Tags</span>
+                  <span className="text-dark me-3">Tags</span>
                   <br className="d-md-none" />
                   {tags.map((tag, index) => (
                     <Link className="link" href={`/blogs/tags?query=${tag.replace(/ /g, '+')}`} key={index}>
@@ -144,7 +142,7 @@ const BlogDetail = ({ frontmatter, slug, content }) => {
                   ))}
                 </div>
                 <div className="my-3">
-                  <span className={`text-${resolvedTheme === 'dark' ? 'light' : 'dark'} me-3`}>Share to</span>
+                  <span className="text-dark me-3">Share to</span>
                   <br className="d-md-none" />
                   <ButtonShareSocmed
                     type="facebook"

@@ -1,12 +1,12 @@
 {
-    "theme_color": "#343a40",
-    "background_color": "#343a40",
+    "theme_color": "#fff",
+    "background_color": "#fff",
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Novan Junaedi",
-    "short_name": "Novan's Portfolio",
-    "description": "This is Novan Junaedi's personal portfolio website",
+    "name": "Lestary Media",
+    "short_name": "Lestary Media",
+    "description": "Digital marketing agency",
     "icons": [
         {
             "src": "/icon-192x192.png",
