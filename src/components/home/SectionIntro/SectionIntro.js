@@ -19,7 +19,7 @@ const SectionIntro = () => (
           <h2 className="section-title mb-4">Kenapa Lestary Media?</h2>
           <p className="lh-lg">Pilih keunggulan, pilih Lestary Media sebagai mitra digital marketing Anda. Dibekali dengan inovasi terdepan dan strategi yang terbukti, kami adalah kunci sukses transformasi digital bisnis Anda. Dari desain yang memukau hingga kampanye pemasaran yang memikat, Lestary Media tidak hanya menjanjikan, tetapi memberikan hasil. Keahlian kami memberdayakan bisnis Anda untuk menembus batas online. Jadi, mengapa memilih yang biasa, jika Anda bisa bersinar dengan yang istimewa? Pilih Lestary Media, pilih keberhasilan digital yang tak tertandingi.</p>
 
-          <div className="row">
+          {/* <div className="row">
             <div className="col-auto">
               <p className="display-5 fw-bolder">10+</p>
               <p>Klien Bergabung</p>
@@ -32,7 +32,9 @@ const SectionIntro = () => (
               <p className="display-5 fw-bolder">100%</p>
               <p>Penyelesaian</p>
             </div>
-          </div>
+          </div> */}
+
+          <a className="btn btn-dark rounded-pill px-3" href="https://wa.me/6285157785712" target="_blank" rel="noopener noreferrer">Konsultasi Gratis</a>
         </div>
       </div>
     </div>

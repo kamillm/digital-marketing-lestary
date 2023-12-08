@@ -48,8 +48,8 @@ const Blogs = ({ posts }) => {
 
   const search = (data) => data.filter((post) => post.frontmatter.title
     .toLowerCase().includes(query.toLowerCase()) || post.frontmatter.excerpt
-    .toLowerCase().includes(query.toLowerCase()) || post.frontmatter.tags
-    .toLowerCase().includes(query.toLowerCase()));
+      .toLowerCase().includes(query.toLowerCase()) || post.frontmatter.tags
+        .toLowerCase().includes(query.toLowerCase()));
 
   return (
     <>
@@ -65,7 +65,7 @@ const Blogs = ({ posts }) => {
           content="novan, junaedi, novan junaedi, reactjs, react, nextjs, next, frontend, frontend developer, developer, codepolitan, coding, code, programmer, programming, website, web, javascript, dicoding, freelance, freelancer, portfolio"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://novanjunaedi.com" />
+        <meta property="og:url" content="https://lestarymedia.com" />
         <meta
           property="og:title"
           content="Novan Junaedi - Frontend Developer"
@@ -76,7 +76,7 @@ const Blogs = ({ posts }) => {
         />
         <meta property="og:image" content="/assets/img/OG-image.jpg" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://novanjunaedi.com" />
+        <meta property="twitter:url" content="https://lestarymedia.com" />
         <meta
           property="twitter:title"
           content="Novan Junaedi - Frontend Developer"
@@ -92,9 +92,9 @@ const Blogs = ({ posts }) => {
           <div className="container p-4 p-lg-5">
             <div className="row mb-5" data-aos="fade-up">
               <div className="col">
-                <h1 className="section-title text-dark">Blogs</h1>
+                <h1 className="section-title text-dark">Blog</h1>
                 <p className="lead text-dark">
-                  Just my random posts about anything
+                  Simak artikel-artikel menarik dan up-to-date
                 </p>
               </div>
               <div className="col-lg-3 my-auto">

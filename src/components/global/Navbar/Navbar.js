@@ -63,7 +63,7 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="d-grid gap-2 ms-lg-3">
-            <Link className="btn btn-outline-dark px-3" href="https://bit.ly/3QnQFTA" target="_blank" rel="noopener noreferrer">
+            <Link className="btn btn-outline-dark px-3" href="https://wa.me/6285157785712" target="_blank" rel="noopener noreferrer">
               Konsultasi Gratis
             </Link>
           </div>

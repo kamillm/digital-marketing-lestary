@@ -19,16 +19,16 @@ const Footer = () => {
             </div>
             <div className="col-lg-4 mb-4 mb-lg-auto">
               <h5 className="fw-bolder mb-4">Kontak Kami</h5>
-              <a className="link-light" href="mailto:info@codepolitan.com">
+              <a className="link-light" href="mailto:lestarymedia@gmail.com">
                 <div className="d-flex align-items-start mb-4">
                   <FaEnvelope className="me-2 mt-1" />
-                  info@codepolitan.com
+                  lestarymedia@gmail.com
                 </div>
               </a>
-              <a className="link-light" href="https://wa.me/628999488990">
+              <a className="link-light" href="https://wa.me/6285157785712">
                 <div className="d-flex align-items-start mb-4">
                   <FaWhatsapp className="me-2 mt-1" />
-                  +62 89 9948 8990
+                  +6285157785712
                 </div>
               </a>
               <div className="d-flex align-items-start mb-4">

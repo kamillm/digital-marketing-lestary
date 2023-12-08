@@ -54,7 +54,7 @@ const Home = ({ posts }) => (
         content="novan, junaedi, novan junaedi, reactjs, react, nextjs, next, frontend, frontend developer, developer, codepolitan, coding, code, programmer, programming, website, web, javascript, dicoding, freelance, freelancer, portfolio"
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://novanjunaedi.com" />
+      <meta property="og:url" content="https://lestarymedia.com" />
       <meta property="og:title" content="Lestary Media - Tingkatkan omzet dengan strategi yang tepat" />
       <meta
         property="og:description"
@@ -62,7 +62,7 @@ const Home = ({ posts }) => (
       />
       <meta property="og:image" content="/assets/img/OG-image.jpg" />
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://novanjunaedi.com" />
+      <meta property="twitter:url" content="https://lestarymedia.com" />
       <meta
         property="twitter:title"
         content="Lestary Media - Tingkatkan omzet dengan strategi yang tepat"

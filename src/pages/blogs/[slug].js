@@ -63,7 +63,7 @@ const BlogDetail = ({ frontmatter, slug, content }) => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content={`https://novanjunaedi.com/blogs/${slug}`}
+          content={`https://lestarymedia.com/blogs/${slug}`}
         />
         <meta
           property="og:title"
@@ -74,7 +74,7 @@ const BlogDetail = ({ frontmatter, slug, content }) => {
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content={`https://novanjunaedi.com/blogs/${slug}`}
+          content={`https://lestarymedia.com/blogs/${slug}`}
         />
         <meta
           property="twitter:title"
@@ -146,23 +146,23 @@ const BlogDetail = ({ frontmatter, slug, content }) => {
                   <br className="d-md-none" />
                   <ButtonShareSocmed
                     type="facebook"
-                    link={`https://novanjunaedi.com/blogs/${slug}`}
+                    link={`https://lestarymedia.com/blogs/${slug}`}
                   />
                   <ButtonShareSocmed
                     type="twitter"
-                    link={`https://novanjunaedi.com/blogs/${slug}`}
+                    link={`https://lestarymedia.com/blogs/${slug}`}
                   />
                   <ButtonShareSocmed
                     type="linkedin"
-                    link={`https://novanjunaedi.com/blogs/${slug}`}
+                    link={`https://lestarymedia.com/blogs/${slug}`}
                   />
                   <ButtonShareSocmed
                     type="whatsapp"
-                    link={`https://novanjunaedi.com/blogs/${slug}`}
+                    link={`https://lestarymedia.com/blogs/${slug}`}
                   />
                   <ButtonShareSocmed
                     type="telegram"
-                    link={`https://novanjunaedi.com/blogs/${slug}`}
+                    link={`https://lestarymedia.com/blogs/${slug}`}
                   />
                 </div>
                 <div className="my-5">
