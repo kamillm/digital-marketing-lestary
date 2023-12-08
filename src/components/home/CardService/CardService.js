@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { FaArrowRight } from "react-icons/fa";
+import Link from 'next/link';
+import { FaArrowRight } from 'react-icons/fa';
 
 const CardService = ({ title, description, link }) => (
   <div className="card border-0 shadow rounded-4 h-100">

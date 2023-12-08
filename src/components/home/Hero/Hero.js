@@ -4,23 +4,22 @@ import Image from 'next/image';
 import styles from './Hero.module.scss';
 
 const Hero = () => {
-
   const clients = [
     {
       thumbnail: '/assets/img/sbo.png',
       name: 'Sekolah Bisnis Online',
-      link: 'https://sekolahbisnisonline.id'
+      link: 'https://sekolahbisnisonline.id',
     },
     {
       thumbnail: '/assets/img/morotai.png',
       name: 'Kabupaten Morotai',
-      link: 'https://pulaumorotaikab.go.id'
+      link: 'https://pulaumorotaikab.go.id',
     },
     {
       thumbnail: '/assets/img/malasso.png',
       name: 'Malasso Bali',
-      link: 'https://malasso.id'
-    }
+      link: 'https://malasso.id',
+    },
   ];
 
   return (
@@ -49,27 +48,25 @@ const Hero = () => {
 
         <p className="lead mt-5 mb-3">Telah dipercaya oleh</p>
         <div className="row">
-          {clients.map((client, index) => {
-            return (
-              <div className="col-auto p-2" key={index}>
-                <a className="link" href={client.link} target="_blank" rel="noopener noreferrer">
-                  <Image
-                    style={{ objectFit: 'contain' }}
-                    width={150}
-                    height={100}
-                    src={client.thumbnail}
-                    blurDataURL={client.thumbnail}
-                    placeholder="blur"
-                    alt={client.name}
-                  />
-                </a>
-              </div>
-            );
-          })}
+          {clients.map((client, index) => (
+            <div className="col-auto p-2" key={index}>
+              <a className="link" href={client.link} target="_blank" rel="noopener noreferrer">
+                <Image
+                  style={{ objectFit: 'contain' }}
+                  width={150}
+                  height={100}
+                  src={client.thumbnail}
+                  blurDataURL={client.thumbnail}
+                  placeholder="blur"
+                  alt={client.name}
+                />
+              </a>
+            </div>
+          ))}
         </div>
       </div>
     </section>
-  )
+  );
 };
 
 export default Hero;

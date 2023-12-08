@@ -48,8 +48,8 @@ const Blogs = ({ posts }) => {
 
   const search = (data) => data.filter((post) => post.frontmatter.title
     .toLowerCase().includes(query.toLowerCase()) || post.frontmatter.excerpt
-      .toLowerCase().includes(query.toLowerCase()) || post.frontmatter.tags
-        .toLowerCase().includes(query.toLowerCase()));
+    .toLowerCase().includes(query.toLowerCase()) || post.frontmatter.tags
+    .toLowerCase().includes(query.toLowerCase()));
 
   return (
     <>
