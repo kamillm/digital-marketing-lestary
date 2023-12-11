@@ -1,7 +1,9 @@
 import Link from 'next/link';
 import { FaArrowRight } from 'react-icons/fa';
 
-const CardService = ({ title, description, link, icon }) => (
+const CardService = ({
+  title, description, link, icon,
+}) => (
   <div className="card border-0 shadow rounded-4 h-100">
     <div className="card-body">
       {icon}

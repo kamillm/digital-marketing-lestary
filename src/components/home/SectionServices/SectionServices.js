@@ -1,4 +1,6 @@
-import { FaBoxOpen, FaChartLine, FaPeopleArrows, FaSearch } from 'react-icons/fa';
+import {
+  FaBoxOpen, FaChartLine, FaPeopleArrows, FaSearch,
+} from 'react-icons/fa';
 import CardService from '../CardService/CardService';
 
 const SectionServices = () => {
