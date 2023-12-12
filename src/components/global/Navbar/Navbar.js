@@ -41,11 +41,11 @@ const Navbar = () => {
                 Layanan
               </Link>
             </li>
-            {/* <li className="nav-item">
-              <Link className={router.asPath === '/#featured' ? `nav-link fw-bolder` : 'nav-link'} href="/#featured">
+            <li className="nav-item">
+              <Link className={router.asPath === '/#portfolios' ? 'nav-link fw-bolder' : 'nav-link'} href="/#portfolios">
                 Portofolio
               </Link>
-            </li> */}
+            </li>
             <li className="nav-item">
               <Link className={router.pathname.includes('/blogs') ? 'nav-link fw-bolder' : 'nav-link'} href="/blogs">
                 Blog
