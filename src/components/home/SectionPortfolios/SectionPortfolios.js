@@ -3,9 +3,9 @@ import CardPortfolio from '../CardPorfolio/CardPortfolio';
 const SectionPortfolios = () => {
   const portfolios = [
     {
-      thumbnail: 'https://i.ibb.co/4fTYBXC/3.jpg',
+      thumbnail: 'https://i.ibb.co/cN59cRp/sbo.png',
       title: 'Sekolah Bisnis Online',
-      type: 'Search Engine Optimization',
+      type: 'Product Development',
       description: 'Lorem ipsum',
     },
     {
