@@ -4,7 +4,7 @@ import { FaArrowRight } from 'react-icons/fa';
 const CardService = ({
   title, description, link, icon,
 }) => (
-  <div className="card border-0 shadow rounded-4 h-100">
+  <div className="card border-0 shadow-sm rounded-4 h-100">
     <div className="card-body">
       {icon}
       <h5 className="card-title my-3">{title}</h5>

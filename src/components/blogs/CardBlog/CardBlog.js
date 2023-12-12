@@ -5,7 +5,7 @@ import styles from './CardBlog.module.scss';
 const CardBlog = ({
   thumbnail, title, createdAt, description, readingTime,
 }) => (
-  <div className={`${styles.card_blog} card border-0 rounded-4 shadow h-100`}>
+  <div className={`${styles.card_blog} card border-0 rounded-4 shadow-sm h-100`}>
     <div className="card-body">
       <div className="mb-3">
         <Image

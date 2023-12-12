@@ -9,6 +9,7 @@ import SectionLatestBlogPost from '../components/home/SectionLatestBlogPosts/Sec
 import { sortByDate } from '../utils';
 import SectionServices from '../components/home/SectionServices/SectionServices';
 import SectionIntro from '../components/home/SectionIntro/SectionIntro';
+import SectionPortfolios from '../components/home/SectionPortfolios/SectionPortfolios';
 
 export const getStaticProps = async () => {
   // Get files from posts directory
@@ -77,6 +78,7 @@ const Home = ({ posts }) => (
       <Hero />
       <SectionIntro />
       <SectionServices />
+      <SectionPortfolios />
       <SectionLatestBlogPost posts={posts} />
       <SectionContact />
     </Layout>

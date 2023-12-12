@@ -46,8 +46,8 @@ const Hero = () => {
           </div>
         </div>
 
-        <p className="lead mt-5 mb-3">Telah dipercaya oleh</p>
-        <div className="row">
+        <p className="lead text-center mt-5 pt-5 mb-3">Telah dipercaya oleh</p>
+        <div className="row justify-content-center">
           {clients.map((client, index) => (
             <div className="col-auto p-2" key={index}>
               <a className="link" href={client.link} target="_blank" rel="noopener noreferrer">

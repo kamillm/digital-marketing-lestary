@@ -7,7 +7,7 @@ import {
 
 const SocialMedia = () => (
   <div className="d-inline-flex gap-4">
-    <a className="link-light" href="https://instagram.com/novanjunaedi" target="_blank" rel="noopener noreferrer">
+    <a className="link-light" href="https://www.instagram.com/lestarymedia/" target="_blank" rel="noopener noreferrer">
       <FaInstagram size={20} title="Instagram" />
     </a>
     <a className="link-light" href="https://facebook.com/novanjunaedi98" target="_blank" rel="noopener noreferrer">

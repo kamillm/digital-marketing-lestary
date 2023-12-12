@@ -33,10 +33,12 @@ const SectionServices = () => {
   return (
     <section id="services" data-aos="fade-up">
       <div className="container p-4 p-lg-5">
-        <h2 className="section-title">Layanan</h2>
-        <p className="lead w-50">Layanan-layanan unggulan kami yang mungkin cocok dengan kebutuhan Anda</p>
+        <div className="text-center">
+          <h2 className="section-title">Layanan</h2>
+          <p className="lead">Layanan-layanan unggulan kami yang mungkin cocok dengan kebutuhan Anda</p>
+        </div>
 
-        <div className="row my-4">
+        <div className="row my-5">
           {services.map((service, index) => (
             <div className="col-md-6 col-xl-3 p-2" key={index}>
               <CardService
