@@ -26,14 +26,14 @@ const Hero = () => {
     <section className={`${styles.hero}`} data-aos="fade-up">
       <div className="container p-4 p-lg-5">
         <div className="row justify-content-between">
-          <div className="col-xl-6 my-auto text-center text-xl-start">
+          <div className="col-xl-6 my-auto text-center text-xl-start py-3">
             <h1 className={styles.hero_title}>Tingkatkan Omzet dengan Strategi Digital yang Tepat.</h1>
             <p className={`${styles.hero_subtitle} lead my-4`}>Kami dapat membantu bisnis Anda dengan strategi-strategi terbaik kami. Tersedia layanan konsultasi gratis!</p>
             <Link className="btn btn-dark rounded-pill px-5 py-3 mt-2" href="#intro">
               Pelajari lebih lanjut <FaArrowRight />
             </Link>
           </div>
-          <div className="col-xl-6 my-auto">
+          <div className="col-xl-6 my-auto py-3">
             <Image
               className="img-fluid d-block mx-auto"
               width={1000}
@@ -41,7 +41,7 @@ const Hero = () => {
               src="/assets/img/img-hero.png"
               blurDataURL="/assets/img/img-hero.png"
               placeholder="blur"
-              alt="Novan Junaedi"
+              alt="Lestary Media"
             />
           </div>
         </div>
