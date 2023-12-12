@@ -12,7 +12,7 @@ const CardService = ({
     </div>
     <div className="card-footer bg-white border-0 py-0" style={{ borderBottomLeftRadius: '15px', WebkitBorderBottomRightRadius: '15px' }}>
       {link && (
-        <Link className="link link-dark my-3 float-end" href={link}>Selengkapnya <FaArrowRight /></Link>
+        <Link className="link link-dark my-3 float-end" href={link} target="_blank" rel="noopener noreferrer">Selengkapnya <FaArrowRight /></Link>
       )}
     </div>
   </div>
