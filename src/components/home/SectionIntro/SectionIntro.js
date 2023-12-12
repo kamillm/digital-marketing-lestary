@@ -3,8 +3,8 @@ import Image from 'next/image';
 const SectionIntro = () => (
   <section id="intro" data-aos="fade-up">
     <div className="container p-4 p-lg-5">
-      <div className="row justify-content-between">
-        <div className="col-lg-auto my-auto py-3">
+      <div className="row justify-content-between gx-5">
+        <div className="col-lg-6 col-xl-auto my-auto py-3">
           <Image
             className="img-fluid d-block mx-auto rounded-4"
             width={500}
