@@ -9,25 +9,25 @@ const SectionServices = () => {
       icon: <FaSearch size="3em" />,
       title: 'Search Engine Optimization',
       description: 'Naikkan peringkat, raih visibilitas maksimal. Dengan layanan SEO kami, hadirkan bisnis Anda ke puncak hasil pencarian.',
-      link: '/blogs/memahami-seo-panduan-singkat-untuk-meraih-posisi-teratas-di-mesin-pencari',
+      link: 'https://wa.me/6285157785712?text=Halo min, boleh jelasin lebih lanjut tentang SEO?',
     },
     {
       icon: <FaChartLine size="3em" />,
       title: 'Performance Marketing',
       description: 'Tingkatkan eksposur, capai hasil maksimal. Manfaatkan kekuatan iklan digital dengan layanan kami. Targetkan audiens tepat, optimalkan konversi.',
-      link: '',
+      link: 'https://wa.me/6285157785712?text=Halo min, boleh jelasin lebih lanjut tentang Performance Marketing?',
     },
     {
       icon: <FaPeopleArrows size="3em" />,
       title: 'Social Media Management',
       description: 'Dari strategi konten hingga interaksi autentik, kami membantu menciptakan narasi tak terlupakan. Manfaatkan potensi media sosial untuk keberhasilan signifikan.',
-      link: '',
+      link: 'https://wa.me/6285157785712?text=Halo min, boleh jelasin lebih lanjut tentang Social Media Management?',
     },
     {
       icon: <FaBoxOpen size="3em" />,
       title: 'Product Development',
       description: 'Dengan pendekatan terstruktur dan fokus pada keunggulan, tim pengembangan produk kami siap membawa visi Anda menjadi kenyataan.',
-      link: '',
+      link: 'https://wa.me/6285157785712?text=Halo min, boleh jelasin lebih lanjut tentang Product Development?',
     },
   ];
   return (
