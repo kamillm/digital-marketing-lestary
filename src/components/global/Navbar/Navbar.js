@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Hamburger from 'hamburger-react';
+import { FaWhatsapp } from 'react-icons/fa';
 import styles from './Navbar.module.scss';
 
 const Navbar = () => {
@@ -64,7 +65,7 @@ const Navbar = () => {
           </ul>
           <div className="d-grid gap-2 ms-lg-3">
             <Link className="btn btn-outline-dark px-3" href="https://wa.me/6285157785712" target="_blank" rel="noopener noreferrer">
-              Konsultasi Gratis
+              <FaWhatsapp className="mb-1" /> Konsultasi Gratis
             </Link>
           </div>
         </div>
