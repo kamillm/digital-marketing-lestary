@@ -52,12 +52,8 @@ const BlogDetail = ({ frontmatter, slug, content }) => {
   return (
     <>
       <Head>
-        <title>
-          {frontmatter.title}
-          {' '}
-          - Novan Junaedi
-        </title>
-        <meta name="title" content={`${frontmatter.title} - Novan Junaedi`} />
+        <title>{frontmatter.title}</title>
+        <meta name="title" content={frontmatter.title} />
         <meta name="description" content={frontmatter.excerpt} />
         <meta name="keywords" content={frontmatter.tags} />
         <meta property="og:type" content="website" />
@@ -78,7 +74,7 @@ const BlogDetail = ({ frontmatter, slug, content }) => {
         />
         <meta
           property="twitter:title"
-          content={`${frontmatter.title} - Novan Junaedi`}
+          content={frontmatter.title}
         />
         <meta property="twitter:description" content={frontmatter.excerpt} />
         <meta property="twitter:image" content={frontmatter.cover_image} />
