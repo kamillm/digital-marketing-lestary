@@ -9,7 +9,7 @@ const SectionPortfolios = () => {
       description: 'Dalam proyek ini, kami, sebagai agensi pengembangan produk, mengawali langkah pertama dengan melakukan brainstorming bersama klien, melakukan riset, dan menganalisis pesaing. Setelah semua tahapan ini selesai, kami memulai pembuatan produk berupa situs web, dimulai dari proses pembuatan wireframe hingga mencapai tingkat high fidelity. Seluruh tim kami terlibat dalam setiap langkah ini.',
     },
     {
-      thumbnail: 'https://i.ibb.co/6HcqGFd/mentoringbisnis.png',
+      thumbnail: 'https://i.ibb.co/vHqMpq0/sbb.png',
       title: 'Mentoring Bisnis by SBO',
       type: 'Product Development',
       description: 'Dalam proyek ini, kami, sebagai agensi pengembangan produk, mengawali langkah pertama dengan melakukan brainstorming bersama klien, melakukan riset, dan menganalisis pesaing. Setelah semua tahapan ini selesai, kami memulai pembuatan produk berupa situs web, dimulai dari proses pembuatan wireframe hingga mencapai tingkat high fidelity. Seluruh tim kami terlibat dalam setiap langkah ini.',
