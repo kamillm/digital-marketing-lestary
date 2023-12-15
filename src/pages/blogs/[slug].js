@@ -110,7 +110,8 @@ const BlogDetail = ({ frontmatter, slug, content }) => {
                   </div>
                 </div>
                 <Image
-                  className="img-fluid rounded-4"
+                  style={{ width: '100%', height: '450px', objectFit: 'cover' }}
+                  className="rounded-4"
                   height={500}
                   width={1000}
                   src={frontmatter.cover_image}

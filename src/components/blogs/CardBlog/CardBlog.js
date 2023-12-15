@@ -9,9 +9,10 @@ const CardBlog = ({
     <div className="card-body">
       <div className="mb-3">
         <Image
-          className="img-fluid rounded-4"
-          height={500}
-          width={1000}
+          style={{ width: '100%', height: '200px', objectFit: 'cover' }}
+          className="rounded-4"
+          height={200}
+          width={350}
           src={thumbnail}
           placeholder="blur"
           blurDataURL="/assets/img/placeholder.jpg"
@@ -22,7 +23,7 @@ const CardBlog = ({
       <small>
         {createdAt}
       </small>
-      <p className="text-secondary my-3">{description}</p>
+      <p className={`${styles.excerpt} text-secondary my-3`}>{description}</p>
     </div>
     <div className="card-footer bg-transparent border-0">
       <div className="d-flex justify-content-between">

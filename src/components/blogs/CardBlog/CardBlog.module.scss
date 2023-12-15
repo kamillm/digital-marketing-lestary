@@ -14,3 +14,11 @@
     transition: 0.3s;
     transform: translate(0, -10px);
 }
+
+.excerpt {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
