@@ -33,7 +33,7 @@ const About = () => {
         />
         <meta
           name="keywords"
-          content="novan, junaedi, novan junaedi, reactjs, react, nextjs, next, frontend, frontend developer, developer, codepolitan, coding, code, programmer, programming, website, web, javascript, dicoding, freelance, freelancer, portfolio"
+          content="digital marketing, agency, bandung, portfolio, social media"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://lestarymedia.com/about" />

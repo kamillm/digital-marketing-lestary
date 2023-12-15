@@ -6,32 +6,32 @@ const NotFound = () => (
   <>
     <Head>
       <title>404 - Lestary Media</title>
-      <meta name="title" content="Novan Junaedi - Frontend Developer" />
+      <meta name="title" content="Lestary Media - Tingkatkan omzet dengan strategi yang tepat" />
       <meta
         name="description"
-        content="Hi, my name is Novan Junaedi. I'm a frontend developer and freelancer based in Bandung, Indonesia. Currently, I'm focused on building and maintaining websites at Codepolitan."
+        content="Kami dapat membantu bisnis Anda dengan strategi-strategi terbaik kami. Tersedia layanan konsultasi gratis!"
       />
       <meta
         name="keywords"
-        content="novan, junaedi, novan junaedi, reactjs, react, nextjs, next, frontend, frontend developer, developer, codepolitan, coding, code, programmer, programming, website, web, javascript, dicoding, freelance, freelancer, portfolio"
+        content="digital marketing, agency, bandung, portfolio, social media"
       />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://lestarymedia.com" />
-      <meta property="og:title" content="Novan Junaedi - Frontend Developer" />
+      <meta property="og:title" content="Lestary Media - Tingkatkan omzet dengan strategi yang tepat" />
       <meta
         property="og:description"
-        content="Hi, my name is Novan Junaedi. I'm a frontend developer and freelancer based in Bandung, Indonesia. Currently, I'm focused on building and maintaining websites at Codepolitan."
+        content="Kami dapat membantu bisnis Anda dengan strategi-strategi terbaik kami. Tersedia layanan konsultasi gratis!"
       />
       <meta property="og:image" content="/assets/img/OG-image.jpg" />
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://lestarymedia.com" />
       <meta
         property="twitter:title"
-        content="Novan Junaedi - Frontend Developer"
+        content="Lestary Media - Tingkatkan omzet dengan strategi yang tepat"
       />
       <meta
         property="twitter:description"
-        content="Hi, my name is Novan Junaedi. I'm a frontend developer and freelancer based in Bandung, Indonesia. Currently, I'm focused on building and maintaining websites at Codepolitan."
+        content="Kami dapat membantu bisnis Anda dengan strategi-strategi terbaik kami. Tersedia layanan konsultasi gratis!"
       />
       <meta property="twitter:image" content="/assets/img/OG-image.jpg" />
     </Head>

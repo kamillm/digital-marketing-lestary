@@ -52,35 +52,35 @@ const Tags = ({ posts }) => {
     <>
       <Head>
         <title>Posts by tag {router.query.query} - Lestary Media</title>
-        <meta name="title" content="Novan Junaedi - Frontend Developer" />
+        <meta name="title" content={`Posts by tag ${router.query.query} - Lestary Media`} />
         <meta
           name="description"
-          content="Hi, my name is Novan Junaedi. I'm a frontend developer and freelancer based in Bandung, Indonesia. Currently, I'm focused on building and maintaining websites at Codepolitan."
+          content="Temukan artikel-artikel menari dan up-to-date"
         />
         <meta
           name="keywords"
-          content="novan, junaedi, novan junaedi, reactjs, react, nextjs, next, frontend, frontend developer, developer, codepolitan, coding, code, programmer, programming, website, web, javascript, dicoding, freelance, freelancer, portfolio"
+          content="digtal marketing, seo, agency"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://lestarymedia.com" />
+        <meta property="og:url" content="https://lestarymedia.com/blogs" />
         <meta
           property="og:title"
-          content="Novan Junaedi - Frontend Developer"
+          content={`Posts by tag ${router.query.query} - Lestary Media`}
         />
         <meta
           property="og:description"
-          content="Hi, my name is Novan Junaedi. I'm a frontend developer and freelancer based in Bandung, Indonesia. Currently, I'm focused on building and maintaining websites at Codepolitan."
+          content="Temukan artikel-artikel menari dan up-to-date"
         />
         <meta property="og:image" content="/assets/img/OG-image.jpg" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://lestarymedia.com" />
+        <meta property="twitter:url" content="https://lestarymedia.com/blogs" />
         <meta
           property="twitter:title"
-          content="Novan Junaedi - Frontend Developer"
+          content={`Posts by tag ${router.query.query} - Lestary Media`}
         />
         <meta
           property="twitter:description"
-          content="Hi, my name is Novan Junaedi. I'm a frontend developer and freelancer based in Bandung, Indonesia. Currently, I'm focused on building and maintaining websites at Codepolitan."
+          content="Temukan artikel-artikel menari dan up-to-date"
         />
         <meta property="twitter:image" content="/assets/img/OG-image.jpg" />
       </Head>
