@@ -54,7 +54,7 @@ const Blogs = ({ posts }) => {
   return (
     <>
       <Head>
-        <title>Blogs - Novan Junaedi</title>
+        <title>Blog - Lestary Media</title>
         <meta name="title" content="Novan Junaedi - Frontend Developer" />
         <meta
           name="description"

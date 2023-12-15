@@ -51,7 +51,7 @@ const Tags = ({ posts }) => {
   return (
     <>
       <Head>
-        <title>Posts by tag {router.query.query} - Novan Junaedi</title>
+        <title>Posts by tag {router.query.query} - Lestary Media</title>
         <meta name="title" content="Novan Junaedi - Frontend Developer" />
         <meta
           name="description"

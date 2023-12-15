@@ -5,7 +5,7 @@ import Layout from '../components/global/Layout/Layout';
 const NotFound = () => (
   <>
     <Head>
-      <title>404 - Novan Junaedi</title>
+      <title>404 - Lestary Media</title>
       <meta name="title" content="Novan Junaedi - Frontend Developer" />
       <meta
         name="description"
