@@ -42,5 +42,7 @@ export const readingTime = (text) => Math.ceil(wordCounter(text) / wordsPerMinut
 export const copyText = (text) => {
   navigator.clipboard.writeText(text)
     .then(() => toast('✅ Text copied to clipboard'))
-    .catch((err) => console.error('Error copying text: ', err));
+    .catch((error) => {
+      throw new Error(error);
+    });
 };

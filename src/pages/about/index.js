@@ -56,7 +56,7 @@ const About = () => {
         <meta property="twitter:image" content="/assets/img/OG-image.jpg" />
       </Head>
       <Layout>
-        <section className="mt-5 pt-5" data-aos="fade-up">
+        <section style={{ paddingTop: '100px' }} data-aos="fade-up">
           <div className="container p-4 p-lg-5">
             <div className="row">
               <div className="col-xl-6">

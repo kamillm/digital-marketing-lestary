@@ -64,7 +64,7 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="d-grid gap-2 ms-lg-3">
-            <Link className="btn btn-outline-dark px-3" href="https://wa.me/6285157785712" target="_blank" rel="noopener noreferrer">
+            <Link className="btn btn-outline-dark px-3" href="https://wa.me/6285157785712?text=Halo, saya mau berkonsultasi. Mohon dibantu." target="_blank" rel="noopener noreferrer">
               <FaWhatsapp className="mb-1" /> Konsultasi Gratis
             </Link>
           </div>

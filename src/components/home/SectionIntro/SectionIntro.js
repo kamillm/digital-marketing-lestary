@@ -35,7 +35,7 @@ const SectionIntro = () => (
             </div>
           </div> */}
 
-          <a className="btn btn-dark rounded-pill px-3" href="https://wa.me/6285157785712" target="_blank" rel="noopener noreferrer"><FaWhatsapp className="mb-1" /> Konsultasi Gratis</a>
+          <a className="btn btn-dark rounded-pill px-3" href="https://wa.me/6285157785712?text=Halo, saya mau berkonsultasi. Mohon dibantu." target="_blank" rel="noopener noreferrer"><FaWhatsapp className="mb-1" /> Konsultasi Gratis</a>
         </div>
       </div>
     </div>
