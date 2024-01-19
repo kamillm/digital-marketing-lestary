@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="container py-1 px-4 px-lg-5">
         <div className="d-inline-flex gap-2">
           <Link className="navbar-brand my-auto" href="/">
-            <Image src="/assets/img/logo-dark.png" className="mt-1" height={40} width={180} alt="Lestary Media" />
+            <Image src="/assets/img/logo-dark.png" className="mt-1" height={40} width={140} alt="Lestary Media" />
           </Link>
         </div>
 

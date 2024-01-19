@@ -9,18 +9,13 @@
     "description": "Digital marketing agency",
     "icons": [
         {
+            "src": "/icon-180x180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
             "src": "/icon-192x192.png",
             "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/icon-256x256.png",
-            "sizes": "256x256",
-            "type": "image/png"
-        },
-        {
-            "src": "/icon-384x384.png",
-            "sizes": "384x384",
             "type": "image/png"
         },
         {

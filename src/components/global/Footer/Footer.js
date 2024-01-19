@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="container px-5">
           <div className="row py-5">
             <div className="col-lg-4 mb-4 mb-lg-auto">
-              <Image src="/assets/img/logo-white.png" className="mt-1" height={40} width={180} alt="Novan Junaedi" />
+              <Image src="/assets/img/logo-white.png" className="mt-1" height={40} width={140} alt="Lestary Media" />
               <p className="my-3">Layanan digital marketing terbaik untuk transformasi online Anda. Desain kreatif, kampanye efektif hadir untuk membawa bisnis Anda ke puncak sukses digital!</p>
               <SocialMedia />
             </div>

@@ -7,7 +7,7 @@ const Document = () => (
   <Html lang="id">
     <Head>
       <link rel="manifest" href="/manifest.json" />
-      <link rel="apple-touch-icon" href="/icon-512x512.png" />
+      <link rel="apple-touch-icon" href="/icon-180x180.png" />
       <meta name="theme-color" content="#343a40" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link
