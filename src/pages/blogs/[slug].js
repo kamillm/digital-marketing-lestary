@@ -63,7 +63,7 @@ const BlogDetail = ({ frontmatter, slug, content }) => {
         />
         <meta
           property="og:title"
-          content={`${frontmatter.title} -  Novan Junaedi`}
+          content={`${frontmatter.title} - Lestary Media`}
         />
         <meta property="og:description" content={frontmatter.excerpt} />
         <meta property="og:image" content={frontmatter.cover_image} />
