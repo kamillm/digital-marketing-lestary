@@ -4,7 +4,7 @@ import {
 } from 'next/document';
 
 const Document = () => (
-  <Html lang="id">
+  <Html lang="id-ID">
     <Head>
       <link rel="manifest" href="/manifest.json" />
       <link rel="apple-touch-icon" href="/icon-180x180.png" />

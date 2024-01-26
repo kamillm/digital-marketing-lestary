@@ -55,6 +55,9 @@ const BlogDetail = ({ frontmatter, slug, content }) => {
         <title>{frontmatter.title}</title>
         <meta name="title" content={frontmatter.title} />
         <meta name="description" content={frontmatter.excerpt} />
+        <meta name="author" content={frontmatter.author} />
+        <meta name="publisher" content="Lestary Media" />
+        <meta name="robots" content="INDEX, FOLLOW, MAX-IMAGE-PREVIEW:LARGE, MAX-SNIPPET:-1, MAX-VIDEO-PREVIEW:-1" />
         <meta name="keywords" content={frontmatter.tags} />
         <meta property="og:type" content="website" />
         <meta
@@ -78,6 +81,7 @@ const BlogDetail = ({ frontmatter, slug, content }) => {
         />
         <meta property="twitter:description" content={frontmatter.excerpt} />
         <meta property="twitter:image" content={frontmatter.cover_image} />
+        <link rel="canonical" href={`https://lestarimedia.com/blogs/${slug}`} />
       </Head>
       <Layout>
         <section>
