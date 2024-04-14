@@ -1,4 +1,4 @@
-const portfolios = [
+export const portfolios = [
   {
     thumbnail: 'https://i.ibb.co/cN59cRp/sbo.png',
     title: 'Sekolah Bisnis Online',
@@ -36,5 +36,3 @@ const portfolios = [
     description: 'Di proyek ini kami bertindak sebagai konsultan dan sekaligus tim pengembang untuk menjalankan Ads dari JagoKemasan untuk meningkatkan penjualan sesuai dengan target yang ditetapkan',
   },
 ];
-
-export default portfolios;

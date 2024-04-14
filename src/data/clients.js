@@ -1,4 +1,4 @@
-const clients = [
+export const clients = [
   {
     thumbnail: '/assets/img/sbo.png',
     name: 'Sekolah Bisnis Online',
@@ -20,5 +20,3 @@ const clients = [
     link: 'https://jagokemasan.id',
   },
 ];
-
-export default clients;

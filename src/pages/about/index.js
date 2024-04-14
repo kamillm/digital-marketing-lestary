@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Layout from '../../components/global/Layout/Layout';
 import SectionContact from '../../components/home/SectionContact/SectionContact';
-import clients from '../../data/clients';
+import { clients } from '../../data/clients';
 
 const About = () => (
   <>
