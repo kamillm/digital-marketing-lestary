@@ -2,26 +2,9 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Layout from '../../components/global/Layout/Layout';
 import SectionContact from '../../components/home/SectionContact/SectionContact';
+import { clients } from '../../data/clients';
 
 const About = () => {
-  const clients = [
-    {
-      thumbnail: '/assets/img/sbo.png',
-      name: 'Sekolah Bisnis Online',
-      link: 'https://sekolahbisnisonline.id',
-    },
-    {
-      thumbnail: '/assets/img/morotai.png',
-      name: 'Kabupaten Morotai',
-      link: 'https://pulaumorotaikab.go.id',
-    },
-    {
-      thumbnail: '/assets/img/malasso.png',
-      name: 'Malasso Bali',
-      link: 'https://malasso.id',
-    },
-  ];
-
   return (
     <>
       <Head>
@@ -125,6 +108,7 @@ const About = () => {
                 <div className="col-auto p-2" key={index}>
                   <a className="link" href={client.link} target="_blank" rel="noopener noreferrer">
                     <Image
+                      className="px-3"
                       style={{ objectFit: 'contain' }}
                       width={150}
                       height={100}

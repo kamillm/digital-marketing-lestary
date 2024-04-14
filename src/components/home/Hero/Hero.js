@@ -2,26 +2,9 @@ import Link from 'next/link';
 import { FaArrowRight } from 'react-icons/fa';
 import Image from 'next/image';
 import styles from './Hero.module.scss';
+import { clients } from '../../../data/clients';
 
 const Hero = () => {
-  const clients = [
-    {
-      thumbnail: '/assets/img/sbo.png',
-      name: 'Sekolah Bisnis Online',
-      link: 'https://sekolahbisnisonline.id',
-    },
-    {
-      thumbnail: '/assets/img/morotai.png',
-      name: 'Kabupaten Morotai',
-      link: 'https://pulaumorotaikab.go.id',
-    },
-    {
-      thumbnail: '/assets/img/malasso.png',
-      name: 'Malasso Bali',
-      link: 'https://malasso.id',
-    },
-  ];
-
   return (
     <section className={`${styles.hero}`} data-aos="fade-up">
       <div className="container p-4 p-lg-5">
@@ -52,6 +35,7 @@ const Hero = () => {
             <div className="col-auto p-2" key={index}>
               <a className="link" href={client.link} target="_blank" rel="noopener noreferrer">
                 <Image
+                  className="px-3"
                   style={{ objectFit: 'contain' }}
                   width={150}
                   height={100}
