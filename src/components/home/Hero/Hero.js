@@ -3,6 +3,7 @@ import { FaArrowRight } from 'react-icons/fa';
 import Image from 'next/image';
 import styles from './Hero.module.scss';
 import { clients } from '../../../data/clients';
+import { mediapartners } from '../../../data/mediapartners';
 
 const Hero = () => (
   <section className={`${styles.hero}`} data-aos="fade-up">
@@ -37,6 +38,26 @@ const Hero = () => (
                 className="px-3"
                 style={{ objectFit: 'contain' }}
                 width={150}
+                height={100}
+                src={client.thumbnail}
+                blurDataURL={client.thumbnail}
+                placeholder="blur"
+                alt={client.name}
+              />
+            </a>
+          </div>
+        ))}
+      </div>
+
+      <p className="lead text-center mt-5 pt-5 mb-3">Telah diliput oleh</p>
+      <div className="row justify-content-center">
+        {mediapartners.map((client, index) => (
+          <div className="col-auto p-2" key={index}>
+            <a className="link" href={client.link} target="_blank" rel="noopener noreferrer">
+              <Image
+                className="px-3"
+                style={{ objectFit: 'contain' }}
+                width={230}
                 height={100}
                 src={client.thumbnail}
                 blurDataURL={client.thumbnail}
